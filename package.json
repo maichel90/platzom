@@ -1,0 +1,27 @@
+{
+    "name": "platzom",
+    "version": "0.1.0",
+    "description": "Traductor de idioma platzom",
+    "main": "dist/src/platzom.js",
+    "scripts": {
+        "build": "babel src/platzom.js -d dist",
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maichel90/platzom.git"
+    },
+    "keywords": [
+        "platzom",
+        "javascript",
+        "js"
+    ],
+    "author": "Alejandro Rodriguez <maichel_90@hotmail.com> (https://twitter.com/alejo_maichel)",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-preset-env": "^1.6.0",
+        "chai": "^4.0.2",
+        "mocha": "^3.4.2"
+    }
+}
